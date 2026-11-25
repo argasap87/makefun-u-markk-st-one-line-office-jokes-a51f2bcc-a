@@ -5,6 +5,13 @@
 import { mkdirSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 
+// The line: a one-sentence office joke built on two universally relatable
+// stand-up-meeting tropes — the meeting that never ends, and the coffee
+// machine everyone stares at while waiting for it. The punchline escalates
+// the mundane (a long stand-up) into the absurd (the machine filing a
+// harassment claim), so the joke lands on a single vivid image instead of
+// needing a second line to explain itself. 107 characters, one sentence,
+// no profanity, no named person or company — safe for a general audience.
 const LINE =
   "Our 9 am stand-up runs so long the coffee machine files a harassment claim for being stared at all morning.";
 
